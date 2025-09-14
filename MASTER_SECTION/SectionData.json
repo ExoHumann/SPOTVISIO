@@ -1,0 +1,209 @@
+{
+   "Name":"section_0100.cdb",
+   "Id":100,
+   "Unit":"mm",
+   "MaterialId":1,
+   "Points":
+   [
+      {"Id":"O", "Coord":["0", "0"], "PointType":"StressPoint"},
+      {"Id":"UM", "Coord":["0", "H_QS"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"UL", "Coord":["-37+B_TR/2-(1/TAN((W_ST)*(Pi/180))*(H_QS-T_FBA/COS((Q_NG/100)*(Pi/180))-B_TR/2*Q_NG/100))", "H_QS"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"UR", "Coord":["-37-B_TR/2+(1/TAN((W_ST)*(Pi/180))*(H_QS-T_FBA/COS((Q_NG/100)*(Pi/180))+B_TR/2*Q_NG/100))", "H_QS"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"AKL", "Coord":["B_TR/2-37", "+T_FBA/COS((Q_NG/100)*(Pi/180))+B_TR/2*Q_NG/100"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"AKR", "Coord":["-B_TR/2-37", "+T_FBA/COS((Q_NG/100)*(Pi/180))-B_TR/2*Q_NG/100"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"OL", "Coord":["(B_FB/2)+EX", "((B_FB/2+EX-1900)*Q_NG/100)-1900*0.025"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"OR", "Coord":["(-B_FB/2)+EX-75", "(-B_FB/2+EX)*Q_NG/100"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1L", "Coord":["-299.9999523162842", "100.00002384185791"], "Reference":["AKL"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"2L", "Coord":["-400.00009536743164", "400.00003576278687"], "Reference":["AKL"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"3L", "Coord":["-500", "699.999988079071"], "Reference":["AKL"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"4L", "Coord":["-600.0001430511475", "1100.0000834465027"], "Reference":["AKL"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"5L", "Coord":["-700.0000476837158", "1400.0000357627869"], "Reference":["AKL"], "ReferenceType":"Euclidean", "PointType":"StressPoint"}
+   ],
+   "Loops":
+   [
+      {
+         "Points":
+         [
+            {"Id":"100", "Coord":["0", "0"], "Reference":["UM"], "ReferenceType":"Euclidean"},
+            {"Id":"115", "Coord":["0", "0"], "Reference":["UR"], "ReferenceType":"Euclidean"},
+            {"Id":"114", "Coord":["0", "0"], "Reference":["AKR"], "ReferenceType":"Euclidean"},
+            {"Id":"113", "Coord":["T_ST/COS((90-W_ST)*(Pi/180))-(T_FBA-T_FBI)/TAN((W_ST)*(Pi/180))", "(T_ST/COS((90-W_ST)*(Pi/180)))*Q_NG/100+(T_FBI-T_FBA)"], "Reference":["AKR"], "ReferenceType":"Euclidean"},
+            {"Id":"112", "Coord":["T_ST/COS((90-W_ST)*(Pi/180))-T_BA*TAN((90-W_ST)*(Pi/180))", "-T_BA"], "Reference":["UR"], "ReferenceType":"Euclidean"},
+            {"Id":"111", "Coord":["T_ST/COS((90-W_ST)*(Pi/180))-T_BA*TAN((90-W_ST)*(Pi/180))+B_BV", "-T_BM"], "Reference":["UR"], "ReferenceType":"Euclidean"},
+            {"Id":"106", "Coord":["-T_ST/COS((90-W_ST)*(Pi/180))+T_BA*TAN((90-W_ST)*(Pi/180))-B_BV", "-T_BM"], "Reference":["UL"], "ReferenceType":"Euclidean"},
+            {"Id":"105", "Coord":["-T_ST/COS((90-W_ST)*(Pi/180))+T_BA*TAN((90-W_ST)*(Pi/180))", "-T_BA"], "Reference":["UL"], "ReferenceType":"Euclidean"},
+            {"Id":"104", "Coord":["-T_ST/COS((90-W_ST)*(Pi/180))+(T_FBA-T_FBI)/TAN((W_ST)*(Pi/180))", "(-T_ST/COS((90-W_ST)*(Pi/180)))*Q_NG/100+(T_FBI-T_FBA)"], "Reference":["AKL"], "ReferenceType":"Euclidean"},
+            {"Id":"103", "Coord":["0", "0"], "Reference":["AKL"], "ReferenceType":"Euclidean"},
+            {"Id":"102", "Coord":["0", "0"], "Reference":["UL"], "ReferenceType":"Euclidean"}
+         ],
+         "Id":"L1",
+         "MaterialId":"1"
+      },
+      {
+         "Points":
+         [
+            {"Id":"120", "Coord":["0", "0"], "Reference":["AKL"], "ReferenceType":"Euclidean"},
+            {"Id":"136", "Coord":["-T_ST/COS((90-W_ST)*(Pi/180))+(T_FBA-T_FBI)/TAN((W_ST)*(Pi/180))", "(-T_ST/COS((90-W_ST)*(Pi/180)))*Q_NG/100+(T_FBI-T_FBA)"], "Reference":["AKL"], "ReferenceType":"Euclidean"},
+            {"Id":"135", "Coord":["B_FBV/2", "(T_FBM/COS((Q_NG/100)*(Pi/180)))+B_FBV/2*Q_NG/100"], "ReferenceType":"Euclidean"},
+            {"Id":"134", "Coord":["-B_FBV/2", "(T_FBM/COS((Q_NG/100)*(Pi/180)))-B_FBV/2*Q_NG/100"], "ReferenceType":"Euclidean"},
+            {"Id":"132", "Coord":["T_ST/COS((90-W_ST)*(Pi/180))-(T_FBA-T_FBI)/TAN((W_ST)*(Pi/180))", "(T_ST/COS((90-W_ST)*(Pi/180)))*Q_NG/100+(T_FBI-T_FBA)"], "Reference":["AKR"], "ReferenceType":"Euclidean"},
+            {"Id":"131", "Coord":["0", "0"], "Reference":["AKR"], "ReferenceType":"Euclidean"},
+            {"Id":"130", "Coord":["B_KK+1", "T_KP+B_KK*Q_NG/100"], "Reference":["OR"], "ReferenceType":"Euclidean"},
+            {"Id":"128", "Coord":["0", "T_KP"], "Reference":["OR"], "ReferenceType":"Euclidean"},
+            {"Id":"127", "Coord":["0", "0"], "Reference":["OR"], "ReferenceType":"Euclidean"},
+            {"Id":"126", "Coord":["0", "0"]},
+            {"Id":"125", "Coord":["-1900.0000953674316", "47.49999940395355"], "Reference":["OL"], "ReferenceType":"Euclidean"},
+            {"Id":"124", "Coord":["0", "0"], "Reference":["OL"], "ReferenceType":"Euclidean"},
+            {"Id":"123", "Coord":["0", "T_KP"], "Reference":["OL"], "ReferenceType":"Euclidean"},
+            {"Id":"122", "Coord":["-B_KK-1", "T_KP+B_KK*0.025"], "Reference":["OL"], "ReferenceType":"Euclidean"}
+         ],
+         "Id":"L2",
+         "MaterialId":"2"
+      }
+   ],
+   "PointReinforcements":
+   [
+      {
+         "Point": {"Id":"PRF150", "Coord":["-82.49998092651367", "-82.49998092651367"], "Reference":["UL"], "ReferenceType":"Euclidean"},
+         "Id":"150",
+         "Layer":"7",
+         "MaterialId":"15",
+         "TorsionalContribution":"Acti",
+         "Diameter":"12"
+      },
+      {
+         "Point": {"Id":"PRF151", "Coord":["82.49998092651367", "-82.49998092651367"], "Reference":["UR"], "ReferenceType":"Euclidean"},
+         "Id":"151",
+         "Layer":"7",
+         "MaterialId":"15",
+         "TorsionalContribution":"Acti",
+         "Diameter":"12"
+      },
+      {
+         "Point": {"Id":"PRF152", "Coord":["51.49984359741211", "-517.500028014183"], "Reference":["AKL"], "ReferenceType":"Euclidean"},
+         "Id":"152",
+         "Layer":"7",
+         "MaterialId":"15",
+         "TorsionalContribution":"Acti",
+         "Diameter":"12"
+      },
+      {
+         "Point": {"Id":"PRF153", "Coord":["-51.49984359741211", "-517.5000242888927"], "Reference":["AKR"], "ReferenceType":"Euclidean"},
+         "Id":"153",
+         "Layer":"7",
+         "MaterialId":"15",
+         "TorsionalContribution":"Acti",
+         "Diameter":"12"
+      }
+   ],
+   "LineReinforcements":
+   [
+      {
+         "BarDistribution":"Even",
+         "Spacing":"150",
+         "BarCount":"0",
+         "PointStart": {"Id":"LRF100Start", "Coord":["-174.99995231628418", "-174.99995231628418"], "Reference":["UL"], "ReferenceType":"Euclidean"},
+         "PointEnd": {"Id":"LRF100End", "Coord":["174.99995231628418", "-174.99995231628418"], "Reference":["UR"], "ReferenceType":"Euclidean"},
+         "Id":"100",
+         "Layer":"1",
+         "MaterialId":"10",
+         "TorsionalContribution":"Pass",
+         "Diameter":"25"
+      },
+      {
+         "BarDistribution":"Even",
+         "Spacing":"150",
+         "BarCount":"0",
+         "PointStart": {"Id":"LRF300Start", "Coord":["-250", "-174.99995231628418"], "Reference":["UL"], "ReferenceType":"Euclidean"},
+         "PointEnd": {"Id":"LRF300End", "Coord":["-250", "19.999980926513672"], "Reference":["AKL"], "ReferenceType":"Euclidean"},
+         "Id":"300",
+         "Layer":"3",
+         "MaterialId":"10",
+         "TorsionalContribution":"Pass",
+         "Diameter":"20"
+      },
+      {
+         "BarDistribution":"Even",
+         "Spacing":"150",
+         "BarCount":"0",
+         "PointStart": {"Id":"LRF310Start", "Coord":["250", "-174.99995231628418"], "Reference":["UR"], "ReferenceType":"Euclidean"},
+         "PointEnd": {"Id":"LRF310End", "Coord":["250", "20.00001072883606"], "Reference":["AKR"], "ReferenceType":"Euclidean"},
+         "Id":"310",
+         "Layer":"4",
+         "MaterialId":"10",
+         "TorsionalContribution":"Pass",
+         "Diameter":"20"
+      },
+      {
+         "BarDistribution":"Even",
+         "Spacing":"150",
+         "BarCount":"0",
+         "PointStart": {"Id":"LRF200Start", "Coord":["-82.49998092651367", "125"], "Reference":["OL"], "ReferenceType":"Euclidean"},
+         "PointEnd": {"Id":"LRF200End", "Coord":["-1724.9999046325684", "225.0000238418579"], "Reference":["OL"], "ReferenceType":"Euclidean"},
+         "Id":"200",
+         "Layer":"2",
+         "MaterialId":"11",
+         "TorsionalContribution":"Pass",
+         "Diameter":"20"
+      },
+      {
+         "BarDistribution":"Even",
+         "Spacing":"150",
+         "BarCount":"0",
+         "PointStart": {"Id":"LRF250Start", "Coord":["-1724.9999046325684", "225.0000238418579"], "Reference":["OL"], "ReferenceType":"Euclidean"},
+         "PointEnd": {"Id":"LRF250End", "Coord":["82.49998092651367", "125"], "Reference":["OR"], "ReferenceType":"Euclidean"},
+         "Id":"250",
+         "Layer":"2",
+         "MaterialId":"11",
+         "TorsionalContribution":"Pass",
+         "Diameter":"20"
+      }
+   ],
+   "NonEffectiveZones":[{
+      "Id":"BP1",
+      "Type":"ZV",
+      "PointStart": {"Id":"NEFFBP1Min", "Coord":["-BEFF_BP/2", "-1000"], "Reference":["UM"], "ReferenceType":"Euclidean"},
+      "PointEnd": {"Id":"NEFFBP1Max", "Coord":["BEFF_BP/2", "1000"], "Reference":["UM"], "ReferenceType":"Euclidean"}
+   },
+   {
+      "Id":"FPL",
+      "Type":"ZV",
+      "PointStart": {"Id":"NEFFFPLMin", "Coord":["-BEFF_KR", "-1000.0000596046448"], "Reference":["OL"], "ReferenceType":"Euclidean"},
+      "PointEnd": {"Id":"NEFFFPLMax", "Coord":["BEFF_KR", "1000.0000596046448"], "Reference":["OL"], "ReferenceType":"Euclidean"}
+   },
+   {
+      "Id":"FPR",
+      "Type":"ZV",
+      "PointStart": {"Id":"NEFFFPRMin", "Coord":["-BEFF_KR", "1000.000074505806"], "Reference":["OR"], "ReferenceType":"Euclidean"},
+      "PointEnd": {"Id":"NEFFFPRMax", "Coord":["BEFF_KR", "-1000.0001043081284"], "Reference":["OR"], "ReferenceType":"Euclidean"}
+   },
+   {
+      "Id":"FPM",
+      "Type":"ZV",
+      "PointStart": {"Id":"NEFFFPMMin", "Coord":["-BEFF_FB/2", "-700.0000476837158"], "Reference":["O"], "ReferenceType":"Euclidean"},
+      "PointEnd": {"Id":"NEFFFPMMax", "Coord":["BEFF_FB/2", "700.0000476837158"], "Reference":["O"], "ReferenceType":"Euclidean"}
+   }],
+   "Variables": {"H_QS":2750.000238418579, "B_TR":8575.000762939453, "W_ST":75.0, "T_FBA":600.0000238418579, "Q_NG":3.0, "B_FB":15900.00057220459, "EX":0.0, "T_ST":500.0, "T_FBI":600.0000238418579, "T_BA":600.0000238418579, "B_BV":2000.0, "T_BM":350.0000238418579, "B_KK":500.0, "T_KP":250.0, "B_FBV":3000.000238418579, "T_FBM":350.0000238418579, "BEFF_BP":100.00000149011612, "BEFF_KR":2500.0, "BEFF_FB":100.00000149011612},
+   "VariableDescriptions":
+   {
+      "H_QS":"H_QS:Axis Variable",
+      "B_TR":"B_TR:Axis Variable",
+      "W_ST":"W_ST:Axis Variable",
+      "T_FBA":"T_FBA:Axis Variable",
+      "Q_NG":"Q_NG:Axis Variable",
+      "B_FB":"B_FB:Axis Variable",
+      "EX":"EX:Axis Variable",
+      "T_ST":"T_ST:Axis Variable",
+      "T_FBI":"T_FBI:Axis Variable",
+      "T_BA":"T_BA:Axis Variable",
+      "B_BV":"B_BV:Axis Variable",
+      "T_BM":"T_BM:Axis Variable",
+      "B_KK":"B_KK:Axis Variable",
+      "T_KP":"T_KP:Axis Variable",
+      "B_FBV":"B_FBV:Axis Variable",
+      "T_FBM":"T_FBM:Axis Variable",
+      "BEFF_BP":"BEFF_BP:Axis Variable",
+      "BEFF_KR":"BEFF_KR:Axis Variable",
+      "BEFF_FB":"BEFF_FB:Axis Variable"
+   }
+}

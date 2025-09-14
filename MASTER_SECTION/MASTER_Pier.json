@@ -1,0 +1,51 @@
+{
+   "Name":"MASTER_Pier",
+   "Id":300,
+   "Unit":"mm",
+   "MaterialId":101,
+   "Points":
+   [
+      {"Id":"RA", "Coord":["0", "0"], "PointType":"ConstructionPoint"},
+      {"Id":"OO", "Coord":["0", "-1*CSHEIGHT*0.5"], "Reference":["RA"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"_OO", "Coord":["0", "CSHEIGHT"], "Reference":["OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HW0", "Coord":["(WIDH_1000*-1)", "(WIDH_1000)*SLOP_1000"], "Reference":["RA"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HT0", "Coord":["(CSHEIGHT*0.5*(TAN((INCL_1000)*(Pi/180)))*-1)", "(-CSHEIGHT*0.5)"], "Reference":["HW0"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HB0", "Coord":["(-CSHEIGHT*0.5*(TAN((INCL_1000)*(Pi/180)))*-1)", "(CSHEIGHT*0.5)"], "Reference":["HW0"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1000", "Coord":["0", "0"], "Reference":["HT0"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2000", "Coord":["0", "0"], "Reference":["HB0"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HW50", "Coord":["(WIDH_1050*1)", "(WIDH_1050)*SLOP_1050"], "Reference":["RA"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HT50", "Coord":["(-CSHEIGHT*0.5*(TAN((INCL_1050)*(Pi/180)))*1)", "(-CSHEIGHT*0.5)"], "Reference":["HW50"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HB50", "Coord":["(CSHEIGHT*0.5*(TAN((INCL_1050)*(Pi/180)))*1)", "(CSHEIGHT*0.5)"], "Reference":["HW50"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1050", "Coord":["0", "0"], "Reference":["HT50"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2050", "Coord":["0", "0"], "Reference":["HB50"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"S01", "Coord":["0", "0"], "Reference":["HW0"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"S02", "Coord":["0", "0"], "Reference":["RA"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"S03", "Coord":["0", "0"], "Reference":["HW50"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"}
+   ],
+   "Loops":
+   [
+      {
+         "Points":
+         [
+            {"Id":"1000", "Coord":["0", "0"], "Reference":["HT0"], "ReferenceType":"Euclidean"},
+            {"Id":"0000", "Coord":["0", "0"], "Reference":["OO"], "ReferenceType":"Euclidean"},
+            {"Id":"1050", "Coord":["0", "0"], "Reference":["HT50"], "ReferenceType":"Euclidean"},
+            {"Id":"2050", "Coord":["0", "0"], "Reference":["HB50"], "ReferenceType":"Euclidean"},
+            {"Id":"0001", "Coord":["0", "0"], "Reference":["_OO"], "ReferenceType":"Euclidean"},
+            {"Id":"2000", "Coord":["0", "0"], "Reference":["HB0"], "ReferenceType":"Euclidean"}
+         ],
+         "Id":"L1"
+      }
+   ],
+   "Variables": {"CSHEIGHT":650, "WIDH_1000":2035, "SLOP_1000":0, "INCL_1000":35.555000305175781, "WIDH_1050":2035, "SLOP_1050":0, "INCL_1050":0},
+   "VariableDescriptions":
+   {
+      "CSHEIGHT":"CSHEIGHT:Axis Variable",
+      "WIDH_1000":"WIDH_1000:Axis Variable",
+      "SLOP_1000":"SLOP_1000:Axis Variable",
+      "INCL_1000":"INCL_1000:Axis Variable",
+      "WIDH_1050":"WIDH_1050:Axis Variable",
+      "SLOP_1050":"SLOP_1050:Axis Variable",
+      "INCL_1050":"INCL_1050:Axis Variable"
+   }
+}

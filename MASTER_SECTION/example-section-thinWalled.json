@@ -1,0 +1,62 @@
+{
+    "Id": 2,
+    "Name": "example-section-thinWalled",
+    "Unit": "m",
+    "MaterialId": 1,
+    "ThinWalledSegments":
+    [
+      {
+        "Id": "PTL",
+        "Type": "PLAT",
+        "PointStart": { "Id": "PTLStart", "Coord": [ 0.0, "+0.5*TH1" ] },
+        "PointEnd":   { "Id": "PTLEnd",   "Coord": [ "-0.5*W", "+0.5*TH1" ] },
+        "Thickness": "TH1"
+      },
+      {
+        "Id": "PTR",
+        "Type": "PLAT",
+        "PointStart": { "Id": "PTRStart", "Coord": [ 0.0, "+0.5*TH1" ] },
+        "PointEnd":   { "Id": "PTREnd",   "Coord": [ "+0.5*W", "+0.5*TH1" ] },
+        "Thickness": "TH1"
+      },
+      {
+        "Id": "PM",
+        "Type": "PLAT",
+        "PointStart": { "Id": "PMStart", "Coord": [ 0.0, "+TH1" ] },
+        "PointEnd":   { "Id": "PMEnd",   "Coord": [ 0.0, "H" ] },
+        "Thickness": "TH2"
+      },
+      {
+        "Id": "WM",
+        "Type": "WELD",
+        "PointStart": { "Id": "WMStart", "Coord": [ 0.0, "+0.5*TH1" ] },
+        "PointEnd":   { "Id": "WMEnd",   "Coord": [ 0.0, "+TH1" ] },
+        "Thickness": "TH3"
+      }
+    ],
+    "Variables": { "W": 4.0,  "H": 3.0, "TH1": 0.5, "TH2": 0.3, "TH3": 0.1, "rfDia": 0.1, "rfSpace": 0.3, "rfBDist": 0.5 },
+    "VariableDescriptions":
+    {
+      "W":       "Width:Width of section",
+      "H":       "Height:Height of section",
+      "TH1":     "ThicknessTop:Thickness of top slab",
+      "TH2":     "ThicknessMid:Thickness of vertical element",
+      "TH3":     "ThicknessWeld:Thickness of weld",
+      "rfDia":   "DiameterRf:Diameter of reinforcement",
+      "rfSpace": "SpacingRf:Spacing of reinforcement",
+      "rfBDist": "BorderDistRf:Border distance of reinforcement"
+    },
+    "LineReinforcements":
+    [
+      {
+        "Id": "RF1",
+        "Layer": "1",
+        "MaterialId": "2",
+        "Diameter": "rfDia",
+        "BarDistribution": "FULL",
+        "Spacing": "rfSpace",
+        "PointStart": { "Id": "RFP1", "Coord": [ 0.0, "+TH1+rfBDist" ] },
+        "PointEnd":   { "Id": "RFP2", "Coord": [ 0.0, "+H-rfBDist" ] }
+      }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+   "Id":12,
+   "Unit":"mm",
+   "MaterialId":1,
+   "Loops":
+   [
+      {
+         "Points":
+         [
+            {"Id":"1", "Coord":["-WIDTH/2-HIGHT/2", "-HIGHT/2"], "R":"HIGHT/2", "ReferenceType":"Euclidean"},
+            {"Id":"2", "Coord":["WIDTH/2+HIGHT/2", "-HIGHT/2"], "R":"HIGHT/2", "ReferenceType":"Euclidean"},
+            {"Id":"3", "Coord":["WIDTH/2+HIGHT/2", "HIGHT/2"], "R":"HIGHT/2", "ReferenceType":"Euclidean"},
+            {"Id":"4", "Coord":["-WIDTH/2-HIGHT/2", "HIGHT/2"], "R":"HIGHT/2", "ReferenceType":"Euclidean"}
+         ],
+         "Id":"L1"
+      }
+   ],
+   "Variables": {"WIDTH":2000.0, "HIGHT":1000.0},
+   "VariableDescriptions":
+   {
+      "WIDTH":"WIDTH:Axis Variable",
+      "HIGHT":"HIGHT:Axis Variable"
+   }
+}

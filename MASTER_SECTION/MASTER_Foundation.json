@@ -1,0 +1,70 @@
+{
+   "Name":"MASTER_Foundation",
+   "Id":500,
+   "Unit":"mm",
+   "MaterialId":101,
+   "Points":
+   [
+      {"Id":"RA", "Coord":["0", "0"], "PointType":"ConstructionPoint"},
+      {"Id":"OO", "Coord":["0", "-1*CSHEIGHT"], "Reference":["RA"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"_OO", "Coord":["0", "CSHEIGHT"], "Reference":["OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HW0", "Coord":["(WIDH_1000*-1)", "(WIDH_1000)*SLOP_1000"], "Reference":["OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HW2", "Coord":["(HORZ_1001+HORZ_1002)*(-1)*-1", "(HORZ_1001+HORZ_1002)*(-1)*(SLOP_1000)"], "Reference":["HW0"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1002", "Coord":["0", "0"], "Reference":["HW2"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1001", "Coord":["HORZ_1002*-1", "HORZ_1002*SLOP_1002+VERT_1002"], "Reference":["1002"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1000", "Coord":["HORZ_1001*-1", "HORZ_1001*SLOP_1001+VERT_1001"], "Reference":["1001"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2002", "Coord":["0", "0"], "Reference":["1002", "_OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2001", "Coord":["0", "0"], "Reference":["1001", "_OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2000", "Coord":["0", "0"], "Reference":["1000", "_OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HW50", "Coord":["(WIDH_1050*1)", "(WIDH_1050)*SLOP_1050"], "Reference":["OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"HW52", "Coord":["(HORZ_1051+HORZ_1052)*(-1)*1", "(HORZ_1051+HORZ_1052)*(-1)*(SLOP_1050)"], "Reference":["HW50"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1052", "Coord":["0", "0"], "Reference":["HW52"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1051", "Coord":["HORZ_1052*1", "HORZ_1052*SLOP_1052+VERT_1052"], "Reference":["1052"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"1050", "Coord":["HORZ_1051*1", "HORZ_1051*SLOP_1051+VERT_1051"], "Reference":["1051"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2052", "Coord":["0", "0"], "Reference":["1052", "_OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2051", "Coord":["0", "0"], "Reference":["1051", "_OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"2050", "Coord":["0", "0"], "Reference":["1050", "_OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"S01", "Coord":["0", "0"], "Reference":["2000"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"S02", "Coord":["0", "0"], "Reference":["_OO"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"},
+      {"Id":"S03", "Coord":["0", "0"], "Reference":["2050"], "ReferenceType":"Euclidean", "PointType":"ConstructionPoint"}
+   ],
+   "Loops":
+   [
+      {
+         "Points":
+         [
+            {"Id":"1000", "Coord":["HORZ_1001*-1", "HORZ_1001*SLOP_1001+VERT_1001"], "Reference":["1001"], "ReferenceType":"Euclidean"},
+            {"Id":"1001", "Coord":["HORZ_1002*-1", "HORZ_1002*SLOP_1002+VERT_1002"], "Reference":["1002"], "ReferenceType":"Euclidean"},
+            {"Id":"0000", "Coord":["0", "0"], "Reference":["OO"], "ReferenceType":"Euclidean"},
+            {"Id":"1052", "Coord":["0", "0"], "Reference":["HW52"], "ReferenceType":"Euclidean"},
+            {"Id":"1050", "Coord":["HORZ_1051*1", "HORZ_1051*SLOP_1051+VERT_1051"], "Reference":["1051"], "ReferenceType":"Euclidean"},
+            {"Id":"2050", "Coord":["0", "0"], "Reference":["1050", "_OO"], "ReferenceType":"Euclidean"},
+            {"Id":"2051", "Coord":["0", "0"], "Reference":["1051", "_OO"], "ReferenceType":"Euclidean"},
+            {"Id":"2002", "Coord":["0", "0"], "Reference":["1002", "_OO"], "ReferenceType":"Euclidean"},
+            {"Id":"2000", "Coord":["0", "0"], "Reference":["1000", "_OO"], "ReferenceType":"Euclidean"}
+         ],
+         "Id":"L1"
+      }
+   ],
+   "Variables": {"CSHEIGHT":800, "WIDH_1000":1500, "SLOP_1000":0, "HORZ_1001":1000, "HORZ_1002":0, "SLOP_1002":0, "VERT_1002":0, "SLOP_1001":0.10000000149011612, "VERT_1001":0, "WIDH_1050":1500, "SLOP_1050":0, "HORZ_1051":1000, "HORZ_1052":0, "SLOP_1052":0, "VERT_1052":0, "SLOP_1051":0.10000000149011612, "VERT_1051":0},
+   "VariableDescriptions":
+   {
+      "CSHEIGHT":"CSHEIGHT:Axis Variable",
+      "WIDH_1000":"WIDH_1000:Axis Variable",
+      "SLOP_1000":"SLOP_1000:Axis Variable",
+      "HORZ_1001":"HORZ_1001:Axis Variable",
+      "HORZ_1002":"HORZ_1002:Axis Variable",
+      "SLOP_1002":"SLOP_1002:Axis Variable",
+      "VERT_1002":"VERT_1002:Axis Variable",
+      "SLOP_1001":"SLOP_1001:Axis Variable",
+      "VERT_1001":"VERT_1001:Axis Variable",
+      "WIDH_1050":"WIDH_1050:Axis Variable",
+      "SLOP_1050":"SLOP_1050:Axis Variable",
+      "HORZ_1051":"HORZ_1051:Axis Variable",
+      "HORZ_1052":"HORZ_1052:Axis Variable",
+      "SLOP_1052":"SLOP_1052:Axis Variable",
+      "VERT_1052":"VERT_1052:Axis Variable",
+      "SLOP_1051":"SLOP_1051:Axis Variable",
+      "VERT_1051":"VERT_1051:Axis Variable"
+   }
+}

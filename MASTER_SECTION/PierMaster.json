@@ -1,0 +1,36 @@
+{
+   "Name":"section_5050.cdb",
+   "Id":5050,
+   "Unit":"mm",
+   "MaterialId":4,
+   "Points":
+   [
+      {"Id":"ML", "Coord":["BPFO/2", "0"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"MR", "Coord":["-BPFO/2", "0"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"OL", "Coord":["BPFO/2", "-TPFO/2"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"OR", "Coord":["-BPFO/2", "-TPFO/2"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"UL", "Coord":["BPFO/2", "TPFO/2"], "ReferenceType":"Euclidean", "PointType":"StressPoint"},
+      {"Id":"UR", "Coord":["-BPFO/2", "TPFO/2"], "ReferenceType":"Euclidean", "PointType":"StressPoint"}
+   ],
+   "Loops":
+   [
+      {
+         "Points":
+         [
+            {"Id":"118", "Coord":["0", "0"], "Reference":["ML"], "ReferenceType":"Euclidean"},
+            {"Id":"116", "Coord":["0", "0"], "R":"850.0000238418579", "Reference":["UL"], "ReferenceType":"Euclidean"},
+            {"Id":"111", "Coord":["0", "0"], "R":"850.0000238418579", "Reference":["UR"], "ReferenceType":"Euclidean"},
+            {"Id":"109", "Coord":["0", "0"], "Reference":["MR"], "ReferenceType":"Euclidean"},
+            {"Id":"107", "Coord":["0", "0"], "R":"850.0000238418579", "Reference":["OR"], "ReferenceType":"Euclidean"},
+            {"Id":"102", "Coord":["0", "0"], "R":"850.0000238418579", "Reference":["OL"], "ReferenceType":"Euclidean"}
+         ],
+         "Id":"L1"
+      }
+   ],
+   "Variables": {"BPFO":3500.0, "TPFO":1700.0},
+   "VariableDescriptions":
+   {
+      "BPFO":"BPFO:Axis Variable",
+      "TPFO":"TPFO:Axis Variable"
+   }
+}

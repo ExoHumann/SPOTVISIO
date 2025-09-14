@@ -1,0 +1,196 @@
+{
+    "Id": 1,
+    "Name": "KBB_Deck",
+    "Unit": "mm",
+    "MaterialId": 1,
+    "ThinWalledSegments": [
+        {
+            "Id": "PT_1C",
+            "Type": "PLAT",
+            "PointStart": { "Id": "101"},
+            "PointEnd": { "Id": "102" },
+            "Thickness": "T_TOP"
+        },
+
+        {
+            "Id": "PT_1",
+            "Type": "PLAT",
+            "PointStart": { "Id": "102"},
+            "PointEnd": { "Id": "103" },
+            "Thickness": "T_TOP"
+        },
+
+		
+        {
+            "Id": "PT_2",
+            "Type": "PLAT",
+            "PointStart": { "Id": "103" },
+            "PointEnd": { "Id": "113" },
+            "Thickness": "T_TOP"
+        },		
+		
+		
+		
+		
+        {
+            "Id": "PT_2",
+            "Type": "PLAT",
+            "PointStart": { "Id": "113" },
+            "PointEnd": { "Id": "112" },
+            "Thickness": "T_TOP"
+        },
+
+        {
+            "Id": "PT_2C",
+            "Type": "PLAT",
+            "PointStart": { "Id": "112" },
+            "PointEnd": { "Id": "111" },
+            "Thickness": "T_TOP"
+        },		
+		
+		
+        {
+            "Id": "W_1A",
+            "Type": "PLAT",
+            "PointStart": { "Id": "102" },
+            "PointEnd": { "Id": "201" },
+            "Thickness": "T_WEB"
+        },
+
+        {
+            "Id": "W_2A",
+            "Type": "PLAT",
+            "PointStart": { "Id": "112" },
+            "PointEnd": { "Id": "211"  },
+            "Thickness": "T_WEB"
+        },
+		
+
+
+        {
+            "Id": "PB_1",
+            "Type": "PLAT",
+            "PointStart": { "Id": "201"  },
+            "PointEnd": { "Id": "202" },
+            "Thickness": "T_BOT"
+        },		
+
+         {
+            "Id": "PB_2",
+            "Type": "PLAT",
+            "PointStart": { "Id": "202"  },
+            "PointEnd": { "Id": "212" },
+            "Thickness": "T_BOT"
+        },		
+
+         {
+            "Id": "PB_3",
+            "Type": "PLAT",
+            "PointStart": { "Id": "212"  },
+            "PointEnd": { "Id": "211" },
+            "Thickness": "T_BOT"
+        },	
+
+      {
+            "Id": "W_Box_1",
+            "Type": "PLAT",
+            "PointStart": { "Id": "103"},
+            "PointEnd": { "Id": "202" },
+            "Thickness": "T_WEB"
+        },
+
+      {
+            "Id": "W_Box_1",
+            "Type": "PLAT",
+            "PointStart": { "Id": "113"},
+            "PointEnd": { "Id": "212" },
+            "Thickness": "T_WEB"
+        }
+		
+	
+    ],
+    "Variables": {
+        "W_TOP": 8000,
+        "H": 4000,
+        "T_TOP": 80,
+        "T_WEB": 40,
+        "T_BOT": 60,
+        "W_BOT": 6000,
+        "T_WELD": 30,
+        "D_BEAR_1": 3500,
+		"D_BEAR_2": 5000,
+		"H_Cb": 6000,
+		"V_Cb": 500,
+		"D_Ax": 3500,
+		"DZ_Deck": 200,
+		"H_bear": 500,
+		"L_Cant": 2000,
+		"Wbox_Cb": 3000,
+		"p": 2.5
+    },
+    "VariableDescriptions": {
+        "W_TOP": "Width:Width of section",
+        "W_BOT": "Width:Width of the bottom section",
+        "H": "Height:Height of section",
+        "T_TOP": "ThicknessTop:Thickness of top plate",
+        "T_WEB": "ThicknessMid:Thickness of vertical element",
+        "T_BOT": "ThicknessBot:Thickness of bottom plate",
+        "T_WELD": "ThicknessWeld:Thickness of the welds",
+        "D_BEAR_1": "DistanceBearings1:Distance between the bearings - first line",
+		"D_BEAR_2": "DistanceBearings2: Distance between the bearings - second line",
+		"H_Cb": "Horizontal Cable Distance",
+		"V_Cb": "Vertical Cable Distance",
+		"DZ_Deck": "Deck top level alignment",
+		"H_bear": "Bearing depth",
+		"L_Cant": "Length cantilever",
+		"Wbox_Cb": "Width of the box for cable inspection",
+		"p": "transverse slope"
+		
+		
+		
+    },
+	
+	    "Points": [
+        { "Id": "TOP", "Coord": [0, "0"] },
+        { "Id": "BOT", "Coord": [0, "H"] },
+		
+		
+        { "Id": "B01", "Coord": ["-D_BEAR_1/2", "H"] },
+        { "Id": "B51", "Coord": ["+D_BEAR_1/2", "H"] },
+		
+		{ "Id": "B02", "Coord": ["-D_BEAR_2/2", "H"] },
+        { "Id": "B52", "Coord": ["+D_BEAR_2/2", "H"] },
+				
+		
+		{ "Id": "C00", "Coord": [0, "-V_Cb"] },
+		{ "Id": "C01", "Coord": ["-H_Cb", "-V_Cb"] },
+		{ "Id": "C02", "Coord": ["+H_Cb", "-V_Cb"] },
+		
+				
+		{ "Id": "X00", "Coord": [0, 0] },
+		{ "Id": "X01", "Coord": ["-D_Ax/2", 0] },
+		{ "Id": "X02", "Coord": ["+D_Ax/2", 0] },
+		
+		
+		{ "Id": "000", "Coord": [0, "-DZ_Deck"] },
+		
+		{ "Id": "P__00", "Coord": [0, "H"] },
+		{ "Id": "P__B", "Coord": [0, "H+H_bear"] },
+		
+		{"Id": "101", "Coord": ["-W_TOP/2", "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)"]},
+		{"Id": "102", "Coord": ["-W_TOP/2+L_Cant", "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)"]},
+		{"Id": "103", "Coord": ["-Wbox_Cb/2", "+T_TOP/2"]},
+		{"Id": "113", "Coord": ["+Wbox_Cb/2", "+T_TOP/2"] },
+		{"Id": "111", "Coord": ["+W_TOP/2", "+T_TOP/2+tan(p/100)*(W_TOP/2-Wbox_Cb/2)"] },
+		{"Id": "112", "Coord": ["+W_TOP/2-L_Cant", "+T_TOP/2+tan(p/100)*(W_TOP/2-L_Cant-Wbox_Cb/2)"] },
+		{"Id": "201", "Coord": ["-W_BOT/2", "H-T_BOT/2"] },
+		{"Id": "202", "Coord": ["-Wbox_Cb/2", "H-T_BOT/2"] },
+		{"Id": "211", "Coord": ["+W_BOT/2", "H-T_BOT/2"] },
+		{"Id": "212", "Coord": ["+Wbox_Cb/2", "H-T_BOT/2"] }
+		
+		
+		
+		
+    ]
+
+}
