@@ -1,0 +1,356 @@
+[
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "PackingSize",
+    "Name": "When creating JSON.json files you can choose whether each column vaues maps to a single value or a list of values",
+    "InActive": "PierObject",
+    "Axis@Name": "",
+    "CrossSection@Type": "",
+    "CrossSection@Name": "",
+    "ObjectAxisName": "",
+    "Ref-PlacementId": "",
+    "Ref-StationOffset": "",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 0,
+    "Bot-PierElevation": 0,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "",
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+      "[many]"
+    ],
+    "Internal_Ref-StationOffset": [
+      0
+    ],
+    "Internal-CrossSection@Ncs": [
+      0
+    ],
+    "GrpOffset": [
+      0
+    ]
+  },
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "PackingType",
+    "Name": "When creating JSON.json files you can choose the type for each column values",
+    "InActive": "PierObject",
+    "Axis@Name": "",
+    "CrossSection@Type": "[Str]",
+    "CrossSection@Name": "[Str]",
+    "ObjectAxisName": "[Str]",
+    "Ref-PlacementId": "[Str]",
+    "Ref-StationOffset": "[Str]",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "[Dec]",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "[Int]",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 0,
+    "Bot-PierElevation": 0,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "[Int]",
+    "Internal-PlacementId": [
+      "[Dec]"
+    ],
+    "Internal_Ref-PlacementId": [
+      "[Str]"
+    ],
+    "Internal_Ref-StationOffset": [
+      0
+    ],
+    "Internal-CrossSection@Ncs": [
+      0
+    ],
+    "GrpOffset": [
+      0
+    ]
+  },
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "Workflow",
+    "Name": "When creating JSON.json files you can mark some specific columns which are only relevant for given workflow",
+    "InActive": "PierObject",
+    "Axis@Name": "",
+    "CrossSection@Type": "",
+    "CrossSection@Name": "[DK]",
+    "ObjectAxisName": "[DK]",
+    "Ref-PlacementId": "[DK]",
+    "Ref-StationOffset": "",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "[RFi]",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 0,
+    "Bot-PierElevation": 0,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "",
+    "Internal-PlacementId": [
+      "[DK]"
+    ],
+    "Internal_Ref-PlacementId": [
+      "[DK]"
+    ],
+    "Internal_Ref-StationOffset": [
+      0
+    ],
+    "Internal-CrossSection@Ncs": [
+      0
+    ],
+    "GrpOffset": [
+      0
+    ]
+  },
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "Unit",
+    "Name": "",
+    "InActive": "PierObject",
+    "Axis@Name": "",
+    "CrossSection@Type": "",
+    "CrossSection@Name": "",
+    "ObjectAxisName": "",
+    "Ref-PlacementId": "",
+    "Ref-StationOffset": "",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "[m]",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 0,
+    "Bot-PierElevation": 0,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "",
+    "Internal-PlacementId": [
+      "[deg]"
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-CrossSection@Ncs": [
+      0
+    ],
+    "GrpOffset": [
+    ]
+  },
+  {
+    "No": "",
+    "Class": "1",
+    "Type": "PierObject",
+    "Description": "Pier",
+    "Name": "",
+    "InActive": "PierS1-1",
+    "Axis@Name": "",
+    "CrossSection@Type": "RA",
+    "CrossSection@Name": "Error 2042",
+    "ObjectAxisName": "Error 2042",
+    "Ref-PlacementId": "PierS1-1",
+    "Ref-StationOffset": "S1",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "0.65",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "3000",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 10,
+    "Bot-PierElevation": 3000,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "310",
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+      0
+    ]
+  },
+  {
+    "No": "",
+    "Class": "2",
+    "Type": "PierObject",
+    "Description": "Pier",
+    "Name": "",
+    "InActive": "PierS2-1",
+    "Axis@Name": "",
+    "CrossSection@Type": "RA",
+    "CrossSection@Name": "Error 2042",
+    "ObjectAxisName": "Error 2042",
+    "Ref-PlacementId": "PierS2-1",
+    "Ref-StationOffset": "S2",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "145.65",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "3001",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 20,
+    "Bot-PierElevation": 3001,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "321",
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+      0
+    ]
+  },
+  {
+    "No": "",
+    "Class": "3",
+    "Type": "PierObject",
+    "Description": "Pier",
+    "Name": "",
+    "InActive": "PierS2-2",
+    "Axis@Name": "",
+    "CrossSection@Type": "RA",
+    "CrossSection@Name": "Error 2042",
+    "ObjectAxisName": "Error 2042",
+    "Ref-PlacementId": "PierS2-2",
+    "Ref-StationOffset": "S2",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "145.65",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "3001",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 20,
+    "Bot-PierElevation": 3001,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "322",
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+      0
+    ]
+  },
+  {
+    "No": "",
+    "Class": "4",
+    "Type": "PierObject",
+    "Description": "Pier",
+    "Name": "",
+    "InActive": "PierS3-1",
+    "Axis@Name": "",
+    "CrossSection@Type": "RA",
+    "CrossSection@Name": "Error 2042",
+    "ObjectAxisName": "Error 2042",
+    "Ref-PlacementId": "PierS3-1",
+    "Ref-StationOffset": "S3",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "300.65",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "3001",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 10,
+    "Bot-PierElevation": 3001,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "331",
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+      0
+    ]
+  },
+  {
+    "No": "",
+    "Class": "5",
+    "Type": "PierObject",
+    "Description": "Pier",
+    "Name": "",
+    "InActive": "PierS4-1",
+    "Axis@Name": "",
+    "CrossSection@Type": "RA",
+    "CrossSection@Name": "Error 2042",
+    "ObjectAxisName": "Error 2042",
+    "Ref-PlacementId": "PierS4-1",
+    "Ref-StationOffset": "S4",
+    "StationValue": 0,
+    "Top-CrossSection_Point@Name": "330.65",
+    "Top-Yoffset": 0,
+    "Top-Zoffset": 0,
+    "Top-CrossSection@Ncs": 0,
+    "Bot-CrossSection_Point@Name": "3001",
+    "Bot-Yoffset": 0,
+    "Bot-Zoffset": 0,
+    "Bot-CrossSection@Ncs": 10,
+    "Bot-PierElevation": 3001,
+    "RotationAngle": 0,
+    "Grp": 0,
+    "Fixation": "341",
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+      0
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "PackingSize",
+    "Description": "When creating JSON.json files you can choose whether each column vaues maps to a single value or a list of values",
+    "Name": "GlobalVariables",
+    "InActive": "",
+    "Value": [
+      "[many]"
+    ],
+    "Unit": [
+      "[many]"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "PackingType",
+    "Description": "When creating JSON.json files you can choose the type for each column values",
+    "Name": "GlobalVariables",
+    "InActive": "",
+    "Value": [
+      "[Str]"
+    ],
+    "Unit": [
+      "[Str]"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "Workflow",
+    "Description": "When creating JSON.json files you can mark some specific columns which are only relevant for given workflow",
+    "Name": "GlobalVariables",
+    "InActive": "",
+    "Value": [
+    ],
+    "Unit": [
+    ]
+  },
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "Unit",
+    "Description": "",
+    "Name": "GlobalVariables",
+    "InActive": "",
+    "Value": [
+    ],
+    "Unit": [
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "DataBase",
+    "Description": "Global name of the project",
+    "Name": "ProjectName",
+    "InActive": "",
+    "Value": [
+      "Kulosaar"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "DataBase",
+    "Description": "Workflow for the SPOT",
+    "Name": "Workflow",
+    "InActive": "",
+    "Value": [
+      "[DK]"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "DataBase",
+    "Description": "That is a prefix for tbales which you do not want to include in the EXPORT/PUSH",
+    "Name": "PrefixSkipTable",
+    "InActive": "",
+    "Value": [
+      "table"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "DataBase",
+    "Description": "That is a prefix for tbales which you do not want to include in the EXPORT/PUSH",
+    "Name": "ListSeparator",
+    "InActive": "",
+    "Value": [
+      "[:]"
+    ],
+    "Unit": [
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "GitLab",
+    "Description": "GitLab repository owner",
+    "Name": "RepoOwner",
+    "InActive": "",
+    "Value": [
+      "RCZ"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "GitLab",
+    "Description": "GitLab repository name",
+    "Name": "RepoName",
+    "InActive": "",
+    "Value": [
+      "Ivan_miniproject"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "DataBase",
+    "Description": "It indicates what is the method used to export that database files",
+    "Name": "ImportType",
+    "InActive": "",
+    "Value": [
+      "LOCAL"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "DataBase",
+    "Description": "It indicates origin of the import (branch)",
+    "Name": "ImportBranch",
+    "InActive": "",
+    "Value": [
+      "RCZ"
+    ],
+    "Unit": [
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "DataBase",
+    "Description": "Date time stamp of the export for this database",
+    "Name": "ExportTimeStamp",
+    "InActive": "",
+    "Value": [
+      "04.08.2025 (Monday, August) 10:08:52"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "BIM",
+    "Description": "Tekla scale",
+    "Name": "17",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "mm"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "FEM",
+    "Description": "FEM scale",
+    "Name": "18",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "mmm"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "GENERAL",
+    "Description": "Capping beam W - Height",
+    "Name": "199",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "18_2"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "",
+    "Type": "",
+    "Description": "",
+    "Name": "2",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "m"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "ss",
+    "Description": "sss",
+    "Name": "222",
+    "InActive": "",
+    "Value": [
+      "1",
+      "1"
+    ],
+    "Unit": [
+      "mm",
+      "gg"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "GENERAL",
+    "Description": "Deck depth from road alignment",
+    "Name": "Deck_Depth",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "m"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "GENERAL",
+    "Description": "Width of capping beam",
+    "Name": "Capping beam_Width",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "m"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "GENERAL",
+    "Description": "Distance between piles",
+    "Name": "Piles_Distance from center to center",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "m"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "FEM",
+    "Description": "Asphalt thincess",
+    "Name": "Asphalt_thic",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "m"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "FEM",
+    "Description": "Test1",
+    "Name": "Test1",
+    "InActive": "",
+    "Value": [
+      "1",
+      "1",
+      "1"
+    ],
+    "Unit": [
+      "m",
+      "-",
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "FEM",
+    "Description": "Test2",
+    "Name": "1",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "-"
+    ]
+  },
+  {
+    "No": "",
+    "Class": "GlobalVariable",
+    "Type": "FEM",
+    "Description": "WindLoadValue",
+    "Name": "2",
+    "InActive": "",
+    "Value": [
+      "1"
+    ],
+    "Unit": [
+      "kN/m2"
+    ]
+  }
+]

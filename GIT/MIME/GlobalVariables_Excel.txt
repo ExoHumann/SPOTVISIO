@@ -1,0 +1,1668 @@
+[
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "Comment",
+      "Comment"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "BIM",
+      "BIM"
+    ],
+    "Description": [
+      "Tekla scale",
+      "Tekla scale"
+    ],
+    "Name": [
+      "TeklaScale",
+      "TeklaScale"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      1000,
+      1000
+    ],
+    "Unit": [
+      "-",
+      "-"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Deck distance from rail alignment W",
+      "Deck distance from rail alignment W"
+    ],
+    "Name": [
+      "Deck_RailAlignment_W_Distance",
+      "Deck_RailAlignment_W_Distance"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      3.87,
+      3.87
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Deck distance from rail alignment E",
+      "Deck distance from rail alignment E"
+    ],
+    "Name": [
+      "Deck_RailAlignment_E_Distance",
+      "Deck_RailAlignment_E_Distance"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      3.88,
+      3.88
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam W offset from road alignment S",
+      "Capping beam W offset from road alignment S"
+    ],
+    "Name": [
+      "CappingBeam_W_RoadAlignmentS_Offset",
+      "CappingBeam_W_RoadAlignmentS_Offset"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      4.21,
+      4.21
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam W offset from road alignment N",
+      "Capping beam W offset from road alignment N"
+    ],
+    "Name": [
+      "CappingBeam_W_RoadAlignmentN_Offset",
+      "CappingBeam_W_RoadAlignmentN_Offset"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      6.59,
+      6.59
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam E offset from road alignment S",
+      "Capping beam E offset from road alignment S"
+    ],
+    "Name": [
+      "CappingBeam_E_RoadAlignmentS_Offset",
+      "CappingBeam_E_RoadAlignmentS_Offset"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      6.05,
+      6.05
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam E offset from road alignment N",
+      "Capping beam E offset from road alignment N"
+    ],
+    "Name": [
+      "CappingBeam_E_RoadAlignmentN_Offset",
+      "CappingBeam_E_RoadAlignmentN_Offset"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      8.6,
+      8.6
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam W distance from rail alignment W",
+      "Capping beam W distance from rail alignment W"
+    ],
+    "Name": [
+      "CappingBeam_W_RailAlignmentW_Offset",
+      "CappingBeam_W_RailAlignmentW_Offset"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      4.55,
+      4.55
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam E distance from rail alignment E",
+      "Capping beam E distance from rail alignment E"
+    ],
+    "Name": [
+      "CappingBeam_E_RailAlignmentE_Offset",
+      "CappingBeam_E_RailAlignmentE_Offset"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      4.55,
+      4.55
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Angle of wall WS ",
+      "Angle of wall WS "
+    ],
+    "Name": [
+      "Wall_WS_Angle",
+      "Wall_WS_Angle"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      81,
+      81
+    ],
+    "Unit": [
+      "degree",
+      "degree"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Angle of wall WN",
+      "Angle of wall WN"
+    ],
+    "Name": [
+      "Wall_WN_Angle",
+      "Wall_WN_Angle"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      99,
+      99
+    ],
+    "Unit": [
+      "degree",
+      "degree"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Angle of wall ES",
+      "Angle of wall ES"
+    ],
+    "Name": [
+      "Wall_ES_Angle",
+      "Wall_ES_Angle"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      180,
+      180
+    ],
+    "Unit": [
+      "degree",
+      "degree"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Angle of wall EN",
+      "Angle of wall EN"
+    ],
+    "Name": [
+      "Wall_EN_Angle",
+      "Wall_EN_Angle"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      180,
+      180
+    ],
+    "Unit": [
+      "degree",
+      "degree"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Length of wall WS",
+      "Length of wall WS"
+    ],
+    "Name": [
+      "Wall_WS_Length",
+      "Wall_WS_Length"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      10,
+      10
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Length of wall WN",
+      "Length of wall WN"
+    ],
+    "Name": [
+      "Wall_WN_Length",
+      "Wall_WN_Length"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      10,
+      10
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Length of wall ES",
+      "Length of wall ES"
+    ],
+    "Name": [
+      "Wall_ES_Length",
+      "Wall_ES_Length"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      10,
+      10
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Length of wall EN",
+      "Length of wall EN"
+    ],
+    "Name": [
+      "Wall_EN_Length",
+      "Wall_EN_Length"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      10,
+      10
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Wall WS - Height ",
+      "Wall WS - Height "
+    ],
+    "Name": [
+      "Wall_WS_Height ",
+      "Wall_WS_Height "
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Wall WN - Height ",
+      "Wall WN - Height "
+    ],
+    "Name": [
+      "Wall_WN_Height ",
+      "Wall_WN_Height "
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Wall ES - Height ",
+      "Wall ES - Height "
+    ],
+    "Name": [
+      "Wall_ES_Height ",
+      "Wall_ES_Height "
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      26,
+      26
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Wall EN - Height ",
+      "Wall EN - Height "
+    ],
+    "Name": [
+      "Wall_EN_Height ",
+      "Wall_EN_Height "
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      26,
+      26
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam W - Height",
+      "Capping beam W - Height"
+    ],
+    "Name": [
+      "CappingBeam_W_Height",
+      "CappingBeam_W_Height"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Capping beam E - Height",
+      "Capping beam E - Height"
+    ],
+    "Name": [
+      "CappingBeam_E_Height",
+      "CappingBeam_E_Height"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "",
+      ""
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      29,
+      29
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Pile distance center to center",
+      "Pile distance center to center"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS - Depth",
+      "Piles WS - Depth"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS - Depth",
+      "Piles WS - Depth"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS - Depth",
+      "Piles WS - Depth"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS - Depth",
+      "Piles WS - Depth"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles under capping beam W - Depth",
+      "Piles under capping beam W - Depth"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles under capping beam E - Depth",
+      "Piles under capping beam E - Depth"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS -Height",
+      "Piles WS -Height"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS -Height",
+      "Piles WS -Height"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS -Height",
+      "Piles WS -Height"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles WS -Height",
+      "Piles WS -Height"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles under capping beam W - Height",
+      "Piles under capping beam W - Height"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Piles under capping beam E - Height",
+      "Piles under capping beam E - Height"
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "GENERAL",
+      "GENERAL"
+    ],
+    "Description": [
+      "Deck depth from road alignment",
+      "Deck depth from road alignment"
+    ],
+    "Name": [
+      "Deck_Depth",
+      "Deck_Depth"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      0.05,
+      0.05
+    ],
+    "Unit": [
+      "m",
+      "m"
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "GlobalVariable",
+      "GlobalVariable"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Value": [
+      "",
+      ""
+    ],
+    "Unit": [
+      "",
+      ""
+    ]
+  }
+]

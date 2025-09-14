@@ -1,0 +1,381 @@
+[
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "PackingSize",
+    "Name": "When creating JSON.json files you can choose whether each column vaues maps to a single value or a list of values",
+    "InActive": "CrossSection",
+    "NCS": 0,
+    "Material1": 0,
+    "Material2": 0,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+      "[many]"
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "PackingType",
+    "Name": "When creating JSON.json files you can choose the type for each column values",
+    "InActive": "CrossSection",
+    "NCS": 0,
+    "Material1": 0,
+    "Material2": 0,
+    "Material_Reinf": 0,
+    "10": [
+      "[Int]"
+    ],
+    "11": [
+      "[Str]"
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "Workflow",
+    "Name": "When creating JSON.json files you can mark some specific columns which are only relevant for given workflow",
+    "InActive": "CrossSection",
+    "NCS": 0,
+    "Material1": 0,
+    "Material2": 0,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "",
+    "Type": "ClassInfo",
+    "Description": "Unit",
+    "Name": "",
+    "InActive": "CrossSection",
+    "NCS": 0,
+    "Material1": 0,
+    "Material2": 0,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": [
+      {
+        "VariableName": "errr",
+        "VariableValue": "99999999",
+        "VariableUnit": "errr",
+        "VariableDescription": "errr"
+      },
+      {
+        "VariableName": "errr",
+        "VariableValue": "99999999",
+        "VariableUnit": "errr",
+        "VariableDescription": "errr"
+      },
+      {
+        "VariableName": "errr",
+        "VariableValue": "99999999",
+        "VariableUnit": "errr",
+        "VariableDescription": "errr"
+      },
+      {
+        "VariableName": "errr",
+        "VariableValue": "99999999",
+        "VariableUnit": "errr",
+        "VariableDescription": "errr"
+      },
+      {
+        "VariableName": "errr",
+        "VariableValue": "99999999",
+        "VariableUnit": "errr",
+        "VariableDescription": "errr"
+      }
+    ]
+  },
+  {
+    "No": "",
+    "Class": "1",
+    "Type": "CrossSection",
+    "Description": "Deck",
+    "Name": "test",
+    "InActive": "MASTER_Deck",
+    "NCS": 0,
+    "Material1": 111,
+    "Material2": 101,
+    "Material_Reinf": 0,
+    "10": [
+      "200"
+    ],
+    "11": [
+      "MASTER_SECTION\\SectionData.json"
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "5",
+    "Type": "CrossSection",
+    "Description": "CrossGirder",
+    "Name": "CrossGirder",
+    "InActive": "CrossGirder1",
+    "NCS": 0,
+    "Material1": 501,
+    "Material2": 120,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "6",
+    "Type": "CrossSection",
+    "Description": "MainGirder",
+    "Name": "MainGirder01",
+    "InActive": "MainGirder01",
+    "NCS": 0,
+    "Material1": 4000,
+    "Material2": 400,
+    "Material_Reinf": 100,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "7",
+    "Type": "CrossSection",
+    "Description": "MainGirder",
+    "Name": "MainGirder02",
+    "InActive": "MainGirder02",
+    "NCS": 0,
+    "Material1": 4300,
+    "Material2": 400,
+    "Material_Reinf": 100,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "8",
+    "Type": "CrossSection",
+    "Description": "MainGirder",
+    "Name": "MainGirder03",
+    "InActive": "MainGirder03",
+    "NCS": 0,
+    "Material1": 4600,
+    "Material2": 400,
+    "Material_Reinf": 100,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "6",
+    "Type": "CrossSection",
+    "Description": "MainGirder",
+    "Name": "MainGirder01Cracked",
+    "InActive": "MainGirder01Cracked",
+    "NCS": 0,
+    "Material1": 5000,
+    "Material2": 100,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "7",
+    "Type": "CrossSection",
+    "Description": "MainGirder",
+    "Name": "MainGirder02Cracked",
+    "InActive": "MainGirder02Cracked",
+    "NCS": 0,
+    "Material1": 5300,
+    "Material2": 100,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "8",
+    "Type": "CrossSection",
+    "Description": "MainGirder",
+    "Name": "MainGirder03Cracked",
+    "InActive": "MainGirder03Cracked",
+    "NCS": 0,
+    "Material1": 5600,
+    "Material2": 100,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "9",
+    "Type": "CrossSection",
+    "Description": "Bracing",
+    "Name": "X-bracing bar",
+    "InActive": "X-bracing bar",
+    "NCS": 0,
+    "Material1": 1000,
+    "Material2": 101,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "10",
+    "Type": "CrossSection",
+    "Description": "Pier",
+    "Name": "PierS1",
+    "InActive": "PierS1",
+    "NCS": 0,
+    "Material1": 3000,
+    "Material2": 101,
+    "Material_Reinf": 0,
+    "10": [
+      "200"
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "11",
+    "Type": "CrossSection",
+    "Description": "Pier",
+    "Name": "PierS2,3,4",
+    "InActive": "PierS2,3,4",
+    "NCS": 0,
+    "Material1": 3001,
+    "Material2": 101,
+    "Material_Reinf": 0,
+    "10": [
+      "200"
+    ],
+    "11": [
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "12",
+    "Type": "CrossSection",
+    "Description": "Foundation",
+    "Name": "MASTER_Foundation",
+    "InActive": "MASTER_Foundation",
+    "NCS": 0,
+    "Material1": 300,
+    "Material2": 101,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+      "MASTER_SECTION\\MASTER_Foundation.json"
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "13",
+    "Type": "CrossSection",
+    "Description": "Pier",
+    "Name": "MASTER_Pier",
+    "InActive": "MASTER_Pier",
+    "NCS": 0,
+    "Material1": 400,
+    "Material2": 101,
+    "Material_Reinf": 0,
+    "10": [
+    ],
+    "11": [
+      "MASTER_SECTION\\MASTER_Pier.json"
+    ],
+    "Points": {
+    },
+    "Variables": {
+    }
+  }
+]

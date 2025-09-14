@@ -1,0 +1,422 @@
+[
+  {
+    "Class": "ClassInfo",
+    "Type": "PackingSize",
+    "Description": "When creating JSON.json files you can choose whether each column vaues maps to a single value or a list of values",
+    "Name": "DeckObject",
+    "InActive": "",
+    "Axis@Name": "",
+    "CrossSection@Type": "[many]",
+    "CrossSection@Name": "[many]",
+    "MainStation@Name": [
+      "[many]",
+      "[Int]",
+      "[DK]"
+    ],
+    "GrpOffset": [
+      0,
+      0
+    ],
+    "AxisVariables": {
+    }
+  },
+  {
+    "Class": "DeckObject",
+    "Type": "Deck",
+    "Description": "MasterDeckSection",
+    "Name": "MasterDeck",
+    "InActive": "",
+    "Axis@Name": "RA",
+    "CrossSection@Type": "Deck",
+    "CrossSection@Name": "MASTER_Deck",
+    "MainStation@Name": [
+    ],
+    "GrpOffset": [
+    ],
+    "AxisVariables": [
+      {
+        "VariableName": "TEST",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          2.75000023841857,
+          2.75000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "H_QS:Axis Variable"
+      },
+      {
+        "VariableName": "H_QS",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          2.75000023841857,
+          2.75000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "H_QS:Axis Variable"
+      },
+      {
+        "VariableName": "B_TR",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          8.57500076293945,
+          8.57500076293945
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "B_TR:Axis Variable"
+      },
+      {
+        "VariableName": "W_ST",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "5.555",
+          "5.555"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "W_ST:Axis Variable"
+      },
+      {
+        "VariableName": "T_FBA",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          0.600000023841857,
+          0.600000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "T_FBA:Axis Variable"
+      },
+      {
+        "VariableName": "Q_NG",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.003",
+          "0.003"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "Q_NG:Axis Variable"
+      },
+      {
+        "VariableName": "B_FB",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          15.9000005722045,
+          15.9000005722045
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "B_FB:Axis Variable"
+      },
+      {
+        "VariableName": "EX",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "EX:Axis Variable"
+      },
+      {
+        "VariableName": "T_ST",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.5",
+          "0.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "T_ST:Axis Variable"
+      },
+      {
+        "VariableName": "T_FBI",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          0.600000023841857,
+          0.600000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "T_FBI:Axis Variable"
+      },
+      {
+        "VariableName": "T_BA",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          0.600000023841857,
+          0.600000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "T_BA:Axis Variable"
+      },
+      {
+        "VariableName": "B_BV",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "2",
+          "2"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "B_BV:Axis Variable"
+      },
+      {
+        "VariableName": "T_BM",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          0.350000023841857,
+          0.350000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "T_BM:Axis Variable"
+      },
+      {
+        "VariableName": "B_KK",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.5",
+          "0.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "B_KK:Axis Variable"
+      },
+      {
+        "VariableName": "T_KP",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.25",
+          "0.25"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "T_KP:Axis Variable"
+      },
+      {
+        "VariableName": "B_FBV",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          3.00000023841857,
+          3.00000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "B_FBV:Axis Variable"
+      },
+      {
+        "VariableName": "T_FBM",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          0.350000023841857,
+          0.350000023841857
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "T_FBM:Axis Variable"
+      },
+      {
+        "VariableName": "BEFF_BP",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          0.100000001490116,
+          0.100000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "BEFF_BP:Axis Variable"
+      },
+      {
+        "VariableName": "BEFF_KR",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "2.5",
+          "2.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "BEFF_KR:Axis Variable"
+      },
+      {
+        "VariableName": "BEFF_FB",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          0.100000001490116,
+          0.100000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "BEFF_FB:Axis Variable"
+      }
+    ]
+  },
+  {
+    "Class": "DeckObject",
+    "Type": "MainGirder",
+    "Description": "MainGirder01",
+    "Name": "MG01",
+    "InActive": "",
+    "Axis@Name": "RA",
+    "CrossSection@Type": "MainGirder",
+    "CrossSection@Name": "MainGirder01",
+    "MainStation@Name": [
+    ],
+    "GrpOffset": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AxisVariables": {
+    }
+  },
+  {
+    "Class": "DeckObject",
+    "Type": "MainGirder",
+    "Description": "MainGirder02",
+    "Name": "MG02",
+    "InActive": "",
+    "Axis@Name": "RA",
+    "CrossSection@Type": "MainGirder",
+    "CrossSection@Name": "MainGirder02",
+    "MainStation@Name": [
+    ],
+    "GrpOffset": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AxisVariables": {
+    }
+  },
+  {
+    "Class": "DeckObject",
+    "Type": "MainGirder",
+    "Description": "MainGirder03",
+    "Name": "MG03",
+    "InActive": "",
+    "Axis@Name": "RA",
+    "CrossSection@Type": "MainGirder",
+    "CrossSection@Name": "MainGirder03",
+    "MainStation@Name": [
+    ],
+    "GrpOffset": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "AxisVariables": {
+    }
+  }
+]

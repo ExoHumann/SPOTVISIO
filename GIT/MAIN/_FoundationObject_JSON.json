@@ -1,0 +1,1609 @@
+[
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "PackingSize",
+    "Description": "When creating JSON.json files you can choose whether each column vaues maps to a single value or a list of values",
+    "Name": "FoundationObject",
+    "InActive": "",
+    "ObjectAxisName": "",
+    "CrossSection@Type": "",
+    "CrossSection@Name": "",
+    "Ref-PlacementId": "",
+    "Ref-StationOffset": 0,
+    "StationValue": 0,
+    "CrossSection_Points@Name": "",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 0,
+    "RotationAngle": 0,
+    "Axis@Name": "",
+    "PierObject@Name": "",
+    "Point1": "",
+    "Point2": "",
+    "Point3": "",
+    "Point4": "",
+    "Thickness": "",
+    "Grp": "",
+    "CrossSection@Ncs2": 0,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "",
+    "Eval-PierObject@Name": "",
+    "Eval-StationValue": 0,
+    "Eval_Bot-CrossSection_Points@Name": "",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 0,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+      "[many]"
+    ],
+    "Internal_Ref-PlacementId": [
+      0
+    ],
+    "Internal_Ref-StationOffset": [
+      0
+    ],
+    "Internal-StationValue": [
+      "[many]"
+    ],
+    "Internal-CrossSection@Ncs": [
+      0
+    ],
+    "GrpOffset": [
+      0
+    ],
+    "AxisVariables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "PackingType",
+    "Description": "When creating JSON.json files you can choose the type for each column values",
+    "Name": "FoundationObject",
+    "InActive": "",
+    "ObjectAxisName": "[Str]",
+    "CrossSection@Type": "[Str]",
+    "CrossSection@Name": "[Str]",
+    "Ref-PlacementId": "[Str]",
+    "Ref-StationOffset": 0,
+    "StationValue": 0,
+    "CrossSection_Points@Name": "[Str]",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 0,
+    "RotationAngle": 0,
+    "Axis@Name": "[Str]",
+    "PierObject@Name": "[Str]",
+    "Point1": "[Str]",
+    "Point2": "[Str]",
+    "Point3": "[Str]",
+    "Point4": "[Str]",
+    "Thickness": "[Str]",
+    "Grp": "[Str]",
+    "CrossSection@Ncs2": 0,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "[Str]",
+    "Eval-PierObject@Name": "[Str]",
+    "Eval-StationValue": 0,
+    "Eval_Bot-CrossSection_Points@Name": "[Str]",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 0,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+      "[Str]"
+    ],
+    "Internal_Ref-PlacementId": [
+      0
+    ],
+    "Internal_Ref-StationOffset": [
+      0
+    ],
+    "Internal-StationValue": [
+      "[Str]"
+    ],
+    "Internal-CrossSection@Ncs": [
+      0
+    ],
+    "GrpOffset": [
+      0
+    ],
+    "AxisVariables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "Workflow",
+    "Description": "When creating JSON.json files you can mark some specific columns which are only relevant for given workflow",
+    "Name": "FoundationObject",
+    "InActive": "",
+    "ObjectAxisName": "",
+    "CrossSection@Type": "[DK]",
+    "CrossSection@Name": "[DK]",
+    "Ref-PlacementId": "[DK]",
+    "Ref-StationOffset": 0,
+    "StationValue": 0,
+    "CrossSection_Points@Name": "[DK]",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 0,
+    "RotationAngle": 0,
+    "Axis@Name": "",
+    "PierObject@Name": "",
+    "Point1": "[RFi]",
+    "Point2": "[RFi]",
+    "Point3": "[RFi]",
+    "Point4": "[RFi]",
+    "Thickness": "[RFi]",
+    "Grp": "",
+    "CrossSection@Ncs2": 0,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "",
+    "Eval-PierObject@Name": "[RFi]",
+    "Eval-StationValue": 0,
+    "Eval_Bot-CrossSection_Points@Name": "[RFi]",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 0,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+      "[DK]"
+    ],
+    "Internal_Ref-PlacementId": [
+      0
+    ],
+    "Internal_Ref-StationOffset": [
+      0
+    ],
+    "Internal-StationValue": [
+      "[DK]"
+    ],
+    "Internal-CrossSection@Ncs": [
+      0
+    ],
+    "GrpOffset": [
+      0
+    ],
+    "AxisVariables": {
+    }
+  },
+  {
+    "No": "",
+    "Class": "ClassInfo",
+    "Type": "Unit",
+    "Description": "",
+    "Name": "FoundationObject",
+    "InActive": "",
+    "ObjectAxisName": "",
+    "CrossSection@Type": "",
+    "CrossSection@Name": "",
+    "Ref-PlacementId": "",
+    "Ref-StationOffset": 0,
+    "StationValue": 0,
+    "CrossSection_Points@Name": "",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 0,
+    "RotationAngle": 0,
+    "Axis@Name": "",
+    "PierObject@Name": "",
+    "Point1": "(x,y) [m]",
+    "Point2": "(x,y) [m]",
+    "Point3": "(x,y) [m]",
+    "Point4": "(x,y) [m]",
+    "Thickness": "[m]",
+    "Grp": "",
+    "CrossSection@Ncs2": 0,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "",
+    "Eval-PierObject@Name": "",
+    "Eval-StationValue": 0,
+    "Eval_Bot-CrossSection_Points@Name": "",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 0,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-StationValue": [
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+    ],
+    "AxisVariables": {
+    }
+  },
+  {
+    "No": "1",
+    "Class": "FoundationObject",
+    "Type": "Slab",
+    "Description": "",
+    "Name": "FoundationT1",
+    "InActive": "",
+    "ObjectAxisName": "F1",
+    "CrossSection@Type": "Foundation",
+    "CrossSection@Name": "MASTER_Foundation",
+    "Ref-PlacementId": "S1",
+    "Ref-StationOffset": 0,
+    "StationValue": 0.65,
+    "CrossSection_Points@Name": "",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 30.367,
+    "RotationAngle": 0,
+    "Axis@Name": "RA",
+    "PierObject@Name": "PierS1-1",
+    "Point1": "1,1",
+    "Point2": "1,-1",
+    "Point3": "-1,-1",
+    "Point4": "-1,1",
+    "Thickness": "1",
+    "Grp": "100",
+    "CrossSection@Ncs2": 1000,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "",
+    "Eval-PierObject@Name": "PierS1-1",
+    "Eval-StationValue": 0.65,
+    "Eval_Bot-CrossSection_Points@Name": "B0BP",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 10,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+      "FBEG_1"
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-StationValue": [
+      "-4",
+      "5"
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+    ],
+    "AxisVariables": [
+      {
+        "VariableName": "CSHEIGHT",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.8",
+          "0.8"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "CSHEIGHT:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1000:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1000:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1001:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1002:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1001:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1001:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1050:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1050:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1051:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1052:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1051:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1051:Axis Variable"
+      }
+    ]
+  },
+  {
+    "No": "2",
+    "Class": "FoundationObject",
+    "Type": "Slab",
+    "Description": "",
+    "Name": "FoundationT2",
+    "InActive": "",
+    "ObjectAxisName": "F2",
+    "CrossSection@Type": "Foundation",
+    "CrossSection@Name": "MASTER_Foundation",
+    "Ref-PlacementId": "S1",
+    "Ref-StationOffset": 0,
+    "StationValue": 0.65,
+    "CrossSection_Points@Name": "",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 30.367,
+    "RotationAngle": 0,
+    "Axis@Name": "RA",
+    "PierObject@Name": [
+      "PierS2-1",
+      "PierS2-2"
+    ],
+    "Point1": "1,1",
+    "Point2": "1,-1",
+    "Point3": "-1,-1",
+    "Point4": "-1,1",
+    "Thickness": "1",
+    "Grp": "100",
+    "CrossSection@Ncs2": 1000,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "",
+    "Eval-PierObject@Name": "PierS2-1",
+    "Eval-StationValue": 145.65,
+    "Eval_Bot-CrossSection_Points@Name": "B1BP",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 20,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+      "FBEG_2"
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-StationValue": [
+      "-4",
+      "6"
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+    ],
+    "AxisVariables": [
+      {
+        "VariableName": "CSHEIGHT",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.8",
+          "0.8"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "CSHEIGHT:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1000:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1000:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1001:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1002:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1001:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1001:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1050:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1050:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1051:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1052:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1051:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1051:Axis Variable"
+      }
+    ]
+  },
+  {
+    "No": "3",
+    "Class": "FoundationObject",
+    "Type": "Slab",
+    "Description": "",
+    "Name": "FoundationT3",
+    "InActive": "",
+    "ObjectAxisName": "F3",
+    "CrossSection@Type": "Foundation",
+    "CrossSection@Name": "MASTER_Foundation",
+    "Ref-PlacementId": "S1",
+    "Ref-StationOffset": 0,
+    "StationValue": 0.65,
+    "CrossSection_Points@Name": "",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 30.367,
+    "RotationAngle": 0,
+    "Axis@Name": "RA",
+    "PierObject@Name": "PierS3-1",
+    "Point1": "1,1",
+    "Point2": "1,-1",
+    "Point3": "-1,-1",
+    "Point4": "-1,1",
+    "Thickness": "1",
+    "Grp": "100",
+    "CrossSection@Ncs2": 1000,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "",
+    "Eval-PierObject@Name": "PierS3-1",
+    "Eval-StationValue": 300.65,
+    "Eval_Bot-CrossSection_Points@Name": "B0BP",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 10,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-StationValue": [
+      "-4",
+      "7"
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+    ],
+    "AxisVariables": [
+      {
+        "VariableName": "CSHEIGHT",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.8",
+          "0.8"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "CSHEIGHT:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1000:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1000:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1001:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1002:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1001:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1001:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1050:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1050:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1051:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1052:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1051:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1051:Axis Variable"
+      }
+    ]
+  },
+  {
+    "No": "4",
+    "Class": "FoundationObject",
+    "Type": "Slab",
+    "Description": "",
+    "Name": "FoundationT4",
+    "InActive": "",
+    "ObjectAxisName": "F4",
+    "CrossSection@Type": "Foundation",
+    "CrossSection@Name": "MASTER_Foundation",
+    "Ref-PlacementId": "S1",
+    "Ref-StationOffset": 0,
+    "StationValue": 0.65,
+    "CrossSection_Points@Name": "",
+    "FoundationRefPoint-YOffset": 0,
+    "FoundationRefPoint-XOffset": 0,
+    "FoundationLevel": 30.367,
+    "RotationAngle": 0,
+    "Axis@Name": "RA",
+    "PierObject@Name": "PierS4-1",
+    "Point1": "1,1",
+    "Point2": "1,-1",
+    "Point3": "-1,-1",
+    "Point4": "-1,1",
+    "Thickness": "1",
+    "Grp": "100",
+    "CrossSection@Ncs2": 1000,
+    "Top_ZOffset": 0,
+    "Bot_ZOffset": 0,
+    "Top_Xoffset": 0,
+    "Top_Yoffset": 0,
+    "PileDirAngle": 0,
+    "PileSlope": 0,
+    "Kx": 0,
+    "Ky": 0,
+    "Kz": 0,
+    "Rx": 0,
+    "Ry": 0,
+    "Rz": 0,
+    "Fixation": "",
+    "Eval-PierObject@Name": "PierS4-1",
+    "Eval-StationValue": 330.65,
+    "Eval_Bot-CrossSection_Points@Name": "B0BP",
+    "Eval_Bot-Yoffset": 0,
+    "Eval_Bot-Zoffset": 10,
+    "Eval_Bot-PierElevation": 0,
+    "Internal-PlacementId": [
+    ],
+    "Internal_Ref-PlacementId": [
+    ],
+    "Internal_Ref-StationOffset": [
+    ],
+    "Internal-StationValue": [
+      "-4",
+      "8"
+    ],
+    "Internal-CrossSection@Ncs": [
+    ],
+    "GrpOffset": [
+    ],
+    "AxisVariables": [
+      {
+        "VariableName": "CSHEIGHT",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0.8",
+          "0.8"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "CSHEIGHT:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1000:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1000",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1000:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1001:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1002:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1002",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1002:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1001:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1001",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1001:Axis Variable"
+      },
+      {
+        "VariableName": "WIDH_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1.5",
+          "1.5"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "WIDH_1050:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1050",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1050:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "1",
+          "1"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1051:Axis Variable"
+      },
+      {
+        "VariableName": "HORZ_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "HORZ_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1052:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1052",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1052:Axis Variable"
+      },
+      {
+        "VariableName": "SLOP_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          100.000001490116,
+          100.000001490116
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "SLOP_1051:Axis Variable"
+      },
+      {
+        "VariableName": "VERT_1051",
+        "StationValue": [
+          0,
+          1
+        ],
+        "VariableValues": [
+          "0",
+          "0"
+        ],
+        "VariableIntTypes": [
+          "#",
+          "#"
+        ],
+        "VariableDescription": "VERT_1051:Axis Variable"
+      }
+    ]
+  }
+]

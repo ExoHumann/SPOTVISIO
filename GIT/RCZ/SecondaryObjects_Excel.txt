@@ -1,0 +1,1412 @@
+[
+  {
+    "No": [
+      "",
+      ""
+    ],
+    "Class": [
+      "Comment",
+      "Comment"
+    ],
+    "Type": [
+      "",
+      ""
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "",
+      ""
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "",
+      ""
+    ],
+    "Beg_PlacementId": [
+      "",
+      ""
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "",
+      ""
+    ],
+    "Beg_Ref-StationOffset": [
+      "[m]",
+      "[m]"
+    ],
+    "Beg_StationValue": [
+      "[m]",
+      "[m]"
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "",
+      ""
+    ],
+    "Beg_Ncs": [
+      "",
+      ""
+    ],
+    "End_Axis@Name": [
+      "",
+      ""
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "",
+      ""
+    ],
+    "End_Ref-StationOffset": [
+      "[m]",
+      "[m]"
+    ],
+    "End_StationValue": [
+      "[m]",
+      "[m]"
+    ],
+    "End_CrossSection_Point@Name": [
+      "",
+      ""
+    ],
+    "End_Ncs": [
+      "",
+      ""
+    ],
+    "Grp": [
+      "",
+      ""
+    ]
+  },
+  {
+    "No": [
+      1,
+      1
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossGirder",
+      "CrossGirder"
+    ],
+    "Description": [
+      "Test",
+      "Test"
+    ],
+    "Name": [
+      "CrossGirder01",
+      "CrossGirder01"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "CG01",
+      "CG01"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "S1",
+      "S1"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "CG00",
+      "CG00"
+    ],
+    "Beg_Ncs": [
+      501,
+      501
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "S1",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "CG50",
+      "CG50"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      501,
+      501
+    ]
+  },
+  {
+    "No": [
+      2,
+      2
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossGirder",
+      "CrossGirder"
+    ],
+    "Description": [
+      "Test",
+      "Test"
+    ],
+    "Name": [
+      "CrossGirder02",
+      "CrossGirder02"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "CG02",
+      "CG02"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "S1",
+      "S1"
+    ],
+    "Beg_Ref-StationOffset": [
+      20,
+      20
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "CG00",
+      "CG00"
+    ],
+    "Beg_Ncs": [
+      501,
+      501
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "S1",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "CG50",
+      "CG50"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      502,
+      502
+    ]
+  },
+  {
+    "No": [
+      3,
+      3
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossGirder",
+      "CrossGirder"
+    ],
+    "Description": [
+      "Test",
+      "Test"
+    ],
+    "Name": [
+      "CrossGirder03",
+      "CrossGirder03"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "CG03",
+      "CG03"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "S2",
+      "S2"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "CG00",
+      "CG00"
+    ],
+    "Beg_Ncs": [
+      501,
+      501
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "S2",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "CG50",
+      "CG50"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      503,
+      503
+    ]
+  },
+  {
+    "No": [
+      4,
+      4
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossGirder",
+      "CrossGirder"
+    ],
+    "Description": [
+      "Test",
+      "Test"
+    ],
+    "Name": [
+      "CrossGirder04",
+      "CrossGirder04"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "CG04",
+      "CG04"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "S2",
+      "S2"
+    ],
+    "Beg_Ref-StationOffset": [
+      30,
+      30
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "CG00",
+      "CG00"
+    ],
+    "Beg_Ncs": [
+      501,
+      501
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "S2",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "CG50",
+      "CG50"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      504,
+      504
+    ]
+  },
+  {
+    "No": [
+      5,
+      5
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossGirder",
+      "CrossGirder"
+    ],
+    "Description": [
+      "Test",
+      "Test"
+    ],
+    "Name": [
+      "CrossGirder05",
+      "CrossGirder05"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "CG05",
+      "CG05"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "S3",
+      "S3"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "CG00",
+      "CG00"
+    ],
+    "Beg_Ncs": [
+      501,
+      501
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "S3",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "CG50",
+      "CG50"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      505,
+      505
+    ]
+  },
+  {
+    "No": [
+      6,
+      6
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossGirder",
+      "CrossGirder"
+    ],
+    "Description": [
+      "Test",
+      "Test"
+    ],
+    "Name": [
+      "CrossGirder06",
+      "CrossGirder06"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "CG06",
+      "CG06"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "S3",
+      "S3"
+    ],
+    "Beg_Ref-StationOffset": [
+      15,
+      15
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "CG00",
+      "CG00"
+    ],
+    "Beg_Ncs": [
+      501,
+      501
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "S3",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "CG50",
+      "CG50"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      506,
+      506
+    ]
+  },
+  {
+    "No": [
+      7,
+      7
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "CrossGirder",
+      "CrossGirder"
+    ],
+    "Description": [
+      "Test",
+      "Test"
+    ],
+    "Name": [
+      "CrossGirder07",
+      "CrossGirder07"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "CG07",
+      "CG07"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "S4",
+      "S4"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "CG00",
+      "CG00"
+    ],
+    "Beg_Ncs": [
+      501,
+      501
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "S4",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "CG50",
+      "CG50"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      507,
+      507
+    ]
+  },
+  {
+    "No": [
+      8,
+      8
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "Bracing",
+      "Bracing"
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Bracing01",
+      "Bracing01"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "BR01",
+      "BR01"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "CG01",
+      "CG01"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "RG01",
+      "RG01"
+    ],
+    "Beg_Ncs": [
+      1000,
+      1000
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "CG01",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "RG2",
+      "RG2"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      700,
+      700
+    ]
+  },
+  {
+    "No": [
+      9,
+      9
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "Bracing",
+      "Bracing"
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Bracing02",
+      "Bracing02"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "BR02",
+      "BR02"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "CG02",
+      "CG02"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "RG02",
+      "RG02"
+    ],
+    "Beg_Ncs": [
+      1000,
+      1000
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "CG02",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "RG1",
+      "RG1"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      701,
+      701
+    ]
+  },
+  {
+    "No": [
+      10,
+      10
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "Bracing",
+      "Bracing"
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Bracing03",
+      "Bracing03"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "BR03",
+      "BR03"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "CG03",
+      "CG03"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "RG01",
+      "RG01"
+    ],
+    "Beg_Ncs": [
+      1000,
+      1000
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "CG03",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "RG2",
+      "RG2"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      702,
+      702
+    ]
+  },
+  {
+    "No": [
+      11,
+      11
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "Bracing",
+      "Bracing"
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Bracing04",
+      "Bracing04"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "BR04",
+      "BR04"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "CG04",
+      "CG04"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "RG02",
+      "RG02"
+    ],
+    "Beg_Ncs": [
+      1000,
+      1000
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "CG04",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "RG1",
+      "RG1"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      703,
+      703
+    ]
+  },
+  {
+    "No": [
+      12,
+      12
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "Bracing",
+      "Bracing"
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Bracing05",
+      "Bracing05"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "BR05",
+      "BR05"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "CG05",
+      "CG05"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "RG01",
+      "RG01"
+    ],
+    "Beg_Ncs": [
+      1000,
+      1000
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "CG05",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "RG2",
+      "RG2"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      704,
+      704
+    ]
+  },
+  {
+    "No": [
+      13,
+      13
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "Bracing",
+      "Bracing"
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Bracing06",
+      "Bracing06"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "BR06",
+      "BR06"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "CG06",
+      "CG06"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "RG02",
+      "RG02"
+    ],
+    "Beg_Ncs": [
+      1000,
+      1000
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "CG06",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "RG1",
+      "RG1"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      705,
+      705
+    ]
+  },
+  {
+    "No": [
+      14,
+      14
+    ],
+    "Class": [
+      "SecondaryObject",
+      "SecondaryObject"
+    ],
+    "Type": [
+      "Bracing",
+      "Bracing"
+    ],
+    "Description": [
+      "",
+      ""
+    ],
+    "Name": [
+      "Bracing07",
+      "Bracing07"
+    ],
+    "InActive": [
+      "",
+      ""
+    ],
+    "Beg_Axis@Name": [
+      "RA",
+      "RA"
+    ],
+    "Beg_PlacementId": [
+      "BR07",
+      "BR07"
+    ],
+    "Beg_PlacementDescription": [
+      "",
+      ""
+    ],
+    "Beg_Ref-Placement": [
+      "CG07",
+      "CG07"
+    ],
+    "Beg_Ref-StationOffset": [
+      0,
+      0
+    ],
+    "Beg_StationValue": [
+      "",
+      ""
+    ],
+    "Beg_CrossSection_Point@Name": [
+      "RG01",
+      "RG01"
+    ],
+    "Beg_Ncs": [
+      1000,
+      1000
+    ],
+    "End_Axis@Name": [
+      "RA",
+      "|==|[@[Beg_Axis'@Name]]"
+    ],
+    "End_PlacementId": [
+      "",
+      ""
+    ],
+    "End_PlacementDescription": [
+      "",
+      ""
+    ],
+    "End_Ref-PlacementId": [
+      "CG07",
+      "|==|[@[Beg_Ref-Placement]]"
+    ],
+    "End_Ref-StationOffset": [
+      "",
+      "|==|[@[Beg_Ref-StationOffset]]"
+    ],
+    "End_StationValue": [
+      "",
+      ""
+    ],
+    "End_CrossSection_Point@Name": [
+      "RG2",
+      "RG2"
+    ],
+    "End_Ncs": [
+      "",
+      "|==|[@[Beg_Ncs]]"
+    ],
+    "Grp": [
+      706,
+      706
+    ]
+  }
+]
